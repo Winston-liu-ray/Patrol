@@ -15,6 +15,17 @@
 		441E51331B54D89C004C3222 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 441E51321B54D89C004C3222 /* Images.xcassets */; };
 		441E51361B54D89C004C3222 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 441E51341B54D89C004C3222 /* LaunchScreen.xib */; };
 		441E51421B54D89C004C3222 /* PatrolTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 441E51411B54D89C004C3222 /* PatrolTests.m */; };
+		441E514D1B54DCB0004C3222 /* MapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 441E514C1B54DCB0004C3222 /* MapViewController.m */; };
+		441E514F1B54DE8B004C3222 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 441E514E1B54DE8B004C3222 /* MapKit.framework */; };
+		444DF7491B68DE0E005A79C3 /* Annotation.m in Sources */ = {isa = PBXBuildFile; fileRef = 444DF7481B68DE0E005A79C3 /* Annotation.m */; };
+		4458AFF41B5DE50400068F6E /* LogInViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4458AFF31B5DE50400068F6E /* LogInViewController.m */; };
+		4458AFF71B5DE51700068F6E /* RegisterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4458AFF61B5DE51700068F6E /* RegisterViewController.m */; };
+		4458AFFA1B5E10DF00068F6E /* EmergencyDetectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4458AFF91B5E10DF00068F6E /* EmergencyDetectionViewController.m */; };
+		4458AFFC1B5E1ABB00068F6E /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4458AFFB1B5E1ABB00068F6E /* CoreMotion.framework */; };
+		4458AFFF1B5E26A500068F6E /* PathViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4458AFFE1B5E26A500068F6E /* PathViewController.m */; };
+		4458B0021B5E417F00068F6E /* CHCSVParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 4458B0011B5E417F00068F6E /* CHCSVParser.m */; };
+		4458B0041B5E586200068F6E /* trafficStatistics.csv in Resources */ = {isa = PBXBuildFile; fileRef = 4458B0031B5E586200068F6E /* trafficStatistics.csv */; };
+		4458B0091B5E6A2600068F6E /* StatisticViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4458B0081B5E6A2600068F6E /* StatisticViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,6 +53,25 @@
 		441E513B1B54D89C004C3222 /* PatrolTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PatrolTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		441E51401B54D89C004C3222 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		441E51411B54D89C004C3222 /* PatrolTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PatrolTests.m; sourceTree = "<group>"; };
+		441E514B1B54DCB0004C3222 /* MapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapViewController.h; sourceTree = "<group>"; };
+		441E514C1B54DCB0004C3222 /* MapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapViewController.m; sourceTree = "<group>"; };
+		441E514E1B54DE8B004C3222 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		444DF7471B68DE0E005A79C3 /* Annotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Annotation.h; sourceTree = "<group>"; };
+		444DF7481B68DE0E005A79C3 /* Annotation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Annotation.m; sourceTree = "<group>"; };
+		4458AFF21B5DE50400068F6E /* LogInViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LogInViewController.h; sourceTree = "<group>"; };
+		4458AFF31B5DE50400068F6E /* LogInViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LogInViewController.m; sourceTree = "<group>"; };
+		4458AFF51B5DE51700068F6E /* RegisterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RegisterViewController.h; sourceTree = "<group>"; };
+		4458AFF61B5DE51700068F6E /* RegisterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RegisterViewController.m; sourceTree = "<group>"; };
+		4458AFF81B5E10DF00068F6E /* EmergencyDetectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EmergencyDetectionViewController.h; sourceTree = "<group>"; };
+		4458AFF91B5E10DF00068F6E /* EmergencyDetectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EmergencyDetectionViewController.m; sourceTree = "<group>"; };
+		4458AFFB1B5E1ABB00068F6E /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = System/Library/Frameworks/CoreMotion.framework; sourceTree = SDKROOT; };
+		4458AFFD1B5E26A500068F6E /* PathViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PathViewController.h; sourceTree = "<group>"; };
+		4458AFFE1B5E26A500068F6E /* PathViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PathViewController.m; sourceTree = "<group>"; };
+		4458B0001B5E417F00068F6E /* CHCSVParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CHCSVParser.h; path = "CHCSVParser-master/CHCSVParser/CHCSVParser/CHCSVParser.h"; sourceTree = SOURCE_ROOT; };
+		4458B0011B5E417F00068F6E /* CHCSVParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CHCSVParser.m; path = "CHCSVParser-master/CHCSVParser/CHCSVParser/CHCSVParser.m"; sourceTree = SOURCE_ROOT; };
+		4458B0031B5E586200068F6E /* trafficStatistics.csv */ = {isa = PBXFileReference; fileEncoding = 10; lastKnownFileType = text; name = trafficStatistics.csv; path = OpenData/trafficStatistics.csv; sourceTree = SOURCE_ROOT; };
+		4458B0071B5E6A2600068F6E /* StatisticViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StatisticViewController.h; sourceTree = "<group>"; };
+		4458B0081B5E6A2600068F6E /* StatisticViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StatisticViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -49,6 +79,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4458AFFC1B5E1ABB00068F6E /* CoreMotion.framework in Frameworks */,
+				441E514F1B54DE8B004C3222 /* MapKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +97,8 @@
 		441E51161B54D89B004C3222 = {
 			isa = PBXGroup;
 			children = (
+				4458AFFB1B5E1ABB00068F6E /* CoreMotion.framework */,
+				441E514E1B54DE8B004C3222 /* MapKit.framework */,
 				441E51211B54D89B004C3222 /* Patrol */,
 				441E513E1B54D89C004C3222 /* PatrolTests */,
 				441E51201B54D89B004C3222 /* Products */,
@@ -83,11 +117,28 @@
 		441E51211B54D89B004C3222 /* Patrol */ = {
 			isa = PBXGroup;
 			children = (
+				444DF7471B68DE0E005A79C3 /* Annotation.h */,
+				444DF7481B68DE0E005A79C3 /* Annotation.m */,
+				4458B0001B5E417F00068F6E /* CHCSVParser.h */,
+				4458B0011B5E417F00068F6E /* CHCSVParser.m */,
 				441E51261B54D89C004C3222 /* AppDelegate.h */,
 				441E51271B54D89C004C3222 /* AppDelegate.m */,
 				441E512C1B54D89C004C3222 /* ViewController.h */,
 				441E512D1B54D89C004C3222 /* ViewController.m */,
 				441E512F1B54D89C004C3222 /* Main.storyboard */,
+				4458B0071B5E6A2600068F6E /* StatisticViewController.h */,
+				4458B0081B5E6A2600068F6E /* StatisticViewController.m */,
+				4458AFFD1B5E26A500068F6E /* PathViewController.h */,
+				4458AFFE1B5E26A500068F6E /* PathViewController.m */,
+				4458AFF81B5E10DF00068F6E /* EmergencyDetectionViewController.h */,
+				4458AFF91B5E10DF00068F6E /* EmergencyDetectionViewController.m */,
+				4458AFF21B5DE50400068F6E /* LogInViewController.h */,
+				4458AFF31B5DE50400068F6E /* LogInViewController.m */,
+				4458AFF51B5DE51700068F6E /* RegisterViewController.h */,
+				4458AFF61B5DE51700068F6E /* RegisterViewController.m */,
+				441E514B1B54DCB0004C3222 /* MapViewController.h */,
+				441E514C1B54DCB0004C3222 /* MapViewController.m */,
+				4458B0031B5E586200068F6E /* trafficStatistics.csv */,
 				441E51321B54D89C004C3222 /* Images.xcassets */,
 				441E51341B54D89C004C3222 /* LaunchScreen.xib */,
 				441E51291B54D89C004C3222 /* Patrol.xcdatamodeld */,
@@ -203,6 +254,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				441E51311B54D89C004C3222 /* Main.storyboard in Resources */,
+				4458B0041B5E586200068F6E /* trafficStatistics.csv in Resources */,
 				441E51361B54D89C004C3222 /* LaunchScreen.xib in Resources */,
 				441E51331B54D89C004C3222 /* Images.xcassets in Resources */,
 			);
@@ -223,8 +275,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				441E51281B54D89C004C3222 /* AppDelegate.m in Sources */,
+				4458B0091B5E6A2600068F6E /* StatisticViewController.m in Sources */,
 				441E51251B54D89C004C3222 /* main.m in Sources */,
+				4458AFFA1B5E10DF00068F6E /* EmergencyDetectionViewController.m in Sources */,
+				4458AFF41B5DE50400068F6E /* LogInViewController.m in Sources */,
+				4458AFFF1B5E26A500068F6E /* PathViewController.m in Sources */,
+				444DF7491B68DE0E005A79C3 /* Annotation.m in Sources */,
+				441E514D1B54DCB0004C3222 /* MapViewController.m in Sources */,
+				4458AFF71B5DE51700068F6E /* RegisterViewController.m in Sources */,
 				441E512E1B54D89C004C3222 /* ViewController.m in Sources */,
+				4458B0021B5E417F00068F6E /* CHCSVParser.m in Sources */,
 				441E512B1B54D89C004C3222 /* Patrol.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -352,6 +412,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Patrol/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -362,6 +423,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Patrol/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -420,6 +482,7 @@
 				441E51471B54D89C004C3222 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		441E51481B54D89C004C3222 /* Build configuration list for PBXNativeTarget "PatrolTests" */ = {
 			isa = XCConfigurationList;
@@ -428,6 +491,7 @@
 				441E514A1B54D89C004C3222 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
